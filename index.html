@@ -12,6 +12,21 @@
 <body>
     <button id="btn1">Click me</button>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ipsam quasi neque quidem, recusandae dolores ad, corporis numquam ea nam vero modi autem. Ipsam praesentium autem enim, veritatis et quidem.</p>
+    
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="/register">Register here</a></p>
+    </div>
+    
 
 <script src="./index.js"> </script>
 </body>
